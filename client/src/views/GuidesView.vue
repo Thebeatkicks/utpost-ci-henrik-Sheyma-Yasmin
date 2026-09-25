@@ -7,7 +7,6 @@ const guides = ref([])
 const query = ref('')
 const loading = ref(true)
 const error = ref(null)
-const unused = 1
 
 const load = async () => {
   loading.value = true
