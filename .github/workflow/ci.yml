@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   quality:
-      name: Kvalité
+      name: Kvalitet
       runs-on: ubuntu-latest
       steps:
          - uses: actions/checkout@v4 
