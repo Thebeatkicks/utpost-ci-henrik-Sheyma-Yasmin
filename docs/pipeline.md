@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
   B[branch + commit] --> PR[pull request]
 
@@ -17,7 +18,7 @@ flowchart LR
   RV --> M[merge]
   S -->|nej| FX[fixa, pusha igen]
   FX --> PR
-
+```
 
 | Steg | Tid |
 |---|---:|
