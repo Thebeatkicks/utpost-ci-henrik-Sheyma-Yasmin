@@ -30,3 +30,6 @@ Appen ligger sen på http://localhost:3000 och API:et på http://localhost:4000.
 ## Deploy
 
 Fråga Marcus.
+
+
+WOOOOW
