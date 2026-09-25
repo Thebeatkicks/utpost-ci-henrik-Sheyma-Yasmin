@@ -14,7 +14,7 @@ flowchart LR
   T --> S{gröna?}
   AR --> S
 
-  S -->|ja|RV [review] 
+  S -->|ja| RV[review] 
   RV --> M[merge]
   S -->|nej| FX[fixa, pusha igen]
   FX --> PR
