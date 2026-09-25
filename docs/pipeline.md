@@ -17,3 +17,14 @@ flowchart LR
   RV --> M[merge]
   S -->|nej| FX[fixa, pusha igen]
   FX --> PR
+
+
+| Steg | Tid |
+|---|---:|
+| `npm ci` i Kvalitet | 3 s |
+| `lint` | 1 s |
+| `format:check` | 0 s |
+| `test` | 2 s |
+| `npm ci` i Bygg | 4 s |
+| `build` | 1 s |
+| Hela körningen | 12 s |
